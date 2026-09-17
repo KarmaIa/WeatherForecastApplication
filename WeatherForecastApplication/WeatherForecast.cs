@@ -1,5 +1,6 @@
 namespace WeatherForecastApplication
 {
+    // Погода
     public class WeatherForecast
     {
         public DateOnly Date { get; set; }
