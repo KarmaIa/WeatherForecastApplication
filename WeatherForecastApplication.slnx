@@ -1,7 +1,8 @@
 <Solution>
   <Folder Name="/.github/" />
-  <Folder Name="/.github/workflows/">
-    <File Path="deploy.yml" />
-  </Folder>
+  <Folder Name="/.github/workflows/" />
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
   <Project Path="WeatherForecastApplication/WeatherForecastApplication.csproj" />
 </Solution>

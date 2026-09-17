@@ -1,0 +1,8 @@
+services:
+  weatherforecastapplication:
+    ports:
+      - 83:8080
+    image: ${DOCKER_REGISTRY-}weatherforecastapplication
+    build:
+      context: .
+      dockerfile: WeatherForecastApplication/Dockerfile
